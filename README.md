@@ -70,15 +70,15 @@ Comme personne n'est parfait, il n'est pas exclu que cet examen contienne des co
 
 - A combien de types d'utilisateurs le projet s'adresse-t-il? Nommez chacun de ces types.
 
-> _Ma réponse:_
+> _Ma réponse:_Le projet s'adresse à un type d'utilisateurs qui cherche à lire des livres sur le site
 
 - Combien d'applications faudra-t-il créer et quel sera le type de chacun d'entre elle?
 
-> _Ma réponse:_
+> _Ma réponse:_2 types d'application web et mobile
 
 - Quelles sont les fonctionnalités principales du projet? Listez-les par ordre de priorité (de la plus importante à la moins importante).
 
-> _Ma réponse:_
+> _Ma réponse:_books, categories, les chapitres etc
 
 #### 💻 Travail à réaliser
 
@@ -86,7 +86,7 @@ En se basant sur la demande client, rédiger les spécifications fonctionnelles 
 
 Inclure votre production dans le dépôt Git, ou le **lien de partage** du tableau Trello.
 
-> _Lien de partage de mon tableau Trello:_
+> _Lien de partage de mon tableau Trello:_https://trello.com/b/fYhdz59v/projet-ecf
 
 ---
 
@@ -99,11 +99,11 @@ Inclure votre production dans le dépôt Git, ou le **lien de partage** du table
 
 - Combien de pages sont-elles nécessaires, à votre avis, pour répondre aux spécifications fonctionnelles définies ci-dessus?
 
-> _Ma réponse:_
+> _Ma réponse:_il ya au total 4 pages 
 
 - A quoi le plan du site ressemblera-t-il? Quelle page permettra de passer à quelle autre?
 
-> _Ma réponse:_
+> _Ma réponse:_liste de livres, categorie, livre, chapitre
 
 #### 💻 Travail à réaliser
 
@@ -111,7 +111,7 @@ A l'aide de l'outil de votre choix (outil suggéré: https://wireframe.cc), réa
 
 Inclure vos productions dans le dépôt Git, dans un dossier **mockups**, ou le **lien de partage** de chacun de vos wireframes (attention, sur wireframe.cc, ne pas oublier de cliquer sur **Save**, sinon tous votre travail est perdu!).
 
-> _Liens de partage de mes wireframes:_
+> _Liens de partage de mes wireframes:_https://wireframe.cc/pro/edit/312121
 
 #### Bonus
 
@@ -129,15 +129,15 @@ Réaliser des maquettes (incluant couleurs, fontes, et autres éléments de desi
 
 - Choisiriez-vous plutôt une base de données de type SQL, ou NoSQL pour ce projet? Justifiez votre choix.
 
-> _Ma réponse:_
+> _Ma réponse:_je choisis de type SQL pour structurer les données et pour pouvoir connecter avec le front et le back-end
 
 - Combien d'entités sont-elles nécessaires pour ce projet, et que représenterait chacune d'entre elles? Quelles propriétés pourraient-elles avoir?
 
-> _Ma réponse:_
+> _Ma réponse:_il ya 3 entités (books, categorie, chapitre)
 
 - Quelles relations envisageriez-vous entre ces entités? Précisez pour chaque relation: One-to-one, One-to-many, Many-to-many, composition ou aggrégation.
 
-> _Ma réponse:_
+> _Ma réponse:_ManytoMany entre books et category;  OneToMany entre chapitres et books
 
 #### 💻 Travail à réaliser
 
@@ -175,15 +175,14 @@ Ecrivez vous-mêmes le code nécessaire à la migration de votre schéma au lieu
 
 - Combien d'entités envisagez-vous de créer et pourquoi? Combien de contrôleurs envisagez-vous de créer et pourquoi?
 
-> _Ma réponse:_
-
+> _Ma réponse:_J'envisage 3 entités pour créer une interface avec la base de donnée et 3 controllers qui permettent chacun d'intercepter les requettes. Chaque entity correspond à son contraller
 - Un CRUD suffira-t-il pour chacune des entités, ou y a-t-il des entités pour lesquelles il faudra définir de la logique spécifique?
 
-> _Ma réponse:_
+> _Ma réponse:_Un CRUD suffit pour chacun des entités
 
 - Quelles sont les relations entre les entités, et comment allez-vous les matérialiser dans votre API?
 
-> _Ma réponse:_
+> _Ma réponse:_les relations entre sont manytoOn entre livres-chapitres et livres-categorie
 
 #### 💻 Travail à réaliser
 
@@ -203,7 +202,7 @@ Vous pouvez, pour ce faire, utiliser le squelette d'application existant dans le
 
 - Quelle technique allez-vous utiliser pour communiquer avec l'API?
 
-> _Ma réponse:_
+> _Ma réponse:_Axios permet de communiquer avec l'API en utilisant des requettes
 
 - Comptez-vous séparer l'affichage de la gestion des données? Pouvez-vous expliquer votre choix?
 
